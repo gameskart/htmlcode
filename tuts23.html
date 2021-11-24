@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <style>
+
+        .rel {
+            background-color: rgb(61, 242, 255);
+            border: 5px solid yellowgreen;
+            border-radius: 70px;
+            padding: 10px 6ch;
+            margin: 30px 40px;
+        }
+
+        a:hover {
+            border-radius: 8px;
+            background-blend-mode: saturation;
+            background-color: rgb(255, 255, 255)
+        }
+
+        header {
+            background-image: linear-gradient(to left, red, blue, green, hotpink);
+            position: sticky;
+            top: 2px;
+
+            height: 95px;
+        }
+
+        .rel a {
+            font-size: 20px;
+            font-style: italic;
+            font-family: sans-serif;
+            border-radius: 70px solid red;
+            padding: 3px auto;
+            font-weight: bolder;
+            margin: 4px auto;
+            text-decoration: none;
+
+        }
+
+        .rel li {
+            /* float: left; */
+            /* overflow: auto; */
+            padding: 1px 2px;
+            float: left;
+            margin: 1px 4px;
+            list-style: none;
+        }
+
+        .rel ul {
+            margin: 1px auto;
+            /* border: 7px solid rgb(54, 84, 168); */
+            /* overflow: visible; */
+            /* overflow: auto; */
+            /* float:left; */
+            height: 30px;
+        }
+
+        body {
+            background-color: palegreen;
+            overflow-x: hidden;
+        }
+
+        #search {
+            border: 5px solid rgb(26, 27, 25);
+            border-radius: 70px;
+            padding: 1mm;
+            margin: -30px;
+            float: right;
+        }
+
+
+        img {
+            margin: auto 90px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav class="rel">
+            <ul>
+                <li><a href="https://twitter.com" target="_blank">| twitter |</a></li>
+                <li><a href="https://facebook.com" target="_blank">facebook |</a></li>
+                <li><a href="https://google.com" target="_blank">Google |</a></li>
+                <li><a href="https://yahoo.com" target="_blank">yahoo |</a></li>
+            </ul>
+            <input type="search" name="search bar" placeholder="Search bar" id="search">
+
+        </nav>
+    </header>
+    <img src="hg.jpg" alt="error in loading" sizes="600x400" srcset="D:\Website HTML,JavaScript,CSS\First Folder"
+        width="300" height="400">
+    <img src="free fire.jpg" alt="">
+</body>
+
+</html>

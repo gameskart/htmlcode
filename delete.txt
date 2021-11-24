@@ -1,0 +1,1 @@
+This is javascript text and is for node.js

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on selector</title>
+    <style>
+        /* div > p{
+            color:darkgoldenrod;
+            font-weight: bolder;
+            font-style: italic;
+        } */
+        div + p{
+            color:darkkhaki;
+            font-family: cursive;
+            font-style: italic;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <div>
+                <p>This is 1st paragraph</p>
+            </div>
+            <ul>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <li>This is li inside ul</li>
+            </ul>
+            <p>This is second paragraph in size second div</p>
+        </div>
+        <p>This is first paragraph inside first div</p>
+    </div>
+    <p>This is another paragraph inside outside div</p>
+    
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Variables</title>
+    <style>
+        .container{
+            --container-color:yellow;
+            --box-color:cyan;
+            --box-margin:133px;
+            display: flex;
+            border:5px solid black;
+            background-color: var(--container-color);
+            height:50vh;
+            top:40px;
+            margin:34px auto;
+        }
+        .box{
+            border:3px solid red;
+            background-color: var(--box-color);
+            margin:var(--box-margin);
+            padding:34px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident consectetur, voluptates dolorum rerum eius ratione, eos inventore perferendis fuga tenetur tempore incidunt vitae nobis mollitia quibusdam doloremque a fugiat ad labore exercitationem esse ipsa sapiente sint officia! Eius facilis eveniet, voluptas tempora ipsam quas. Debitis.</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date and times</title>
+    <style>
+        .container {
+            background-color: antiquewhite;
+            height: 95px;
+            font-size: 23px;
+            text-align: center;
+            /* padding: 34px; */
+            margin: 4px;
+            font-style: italic;
+            font-weight: bolder;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #time-container {
+            font-style: italic;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        Current Time is <span id="time_container"></span>
+    </div>
+
+    <script>
+        let dt = new Date()
+        setInterval(updateDate, 1)
+        function updateDate() {
+            // dt.getTimezoneOffset(12)
+            time_container.innerHTML = new Date()
+            // console.log(new Date());
+        }
+
+
+    </script>
+</body>
+
+</html>

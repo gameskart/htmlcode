@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h2>This is HTML forms tutorial</h2>
+    <form method="POST"action="/backend-node.js/tuts67.js">
+        <label for="name"> Name</label>
+        <div>
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+
+        <label for="role">Role</label>
+        <div>
+             <input type="text" name="myRole" id="role">
+        </div>
+        <br>
+
+        <label for="Email">Email</label>
+        <div>
+            <input type="email" name="myEmail" id="Email">
+        </div>
+        <br>
+
+        <label for="Date">Date</label>
+        <div>
+            <input type="date" name="myDate" id="Date">
+        </div>
+        <br>
+
+        <label for="Bonus">Bonus</label>
+        <div>
+            <input type="number" name="myBonus" id="Bonus">
+        </div>
+        <br>
+
+        <label for="Are you eligible?">Are you eligible?</label>
+        <div>
+             <input type="checkbox" name="myEligibility" id="Are you eligible?" aria="checked">
+        </div>
+        <br>
+
+        <label for="Gender">Gender</label>
+        <div>
+             Male <input type="radio" name="myGender" id="Gender"> Female <input type="radio" name="myGender" id="Gender">
+            Other <input type="radio" name="myGender" id="Gender">
+        </div>
+        <br>
+
+        <label for="Write about yourself">Write about yourself</label>
+        <div>
+       <br><textarea name="myText" cols="90" rows="10" id="Write about yourself"></textarea>
+        </div>
+        <br>
+
+        <div>
+            <label for="car">Car</label>
+            <select name="myCar" id="car">
+                <option value="ind">BMW</option>
+                <option value="swf" selected>Oddi</option>
+            </select>
+        </div>
+        <br>
+
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+        <div>
+           Search: <input type="search" name="mysearch" >
+        </div>
+    </form>
+</body>
+
+</html>

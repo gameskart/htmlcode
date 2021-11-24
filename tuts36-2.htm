@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation in CSS</title>
+    <style>
+        .container {
+            background-image: linear-gradient(to bottom, red, blue, pink, yellow, green, rgb(238, 222, 3));
+            height: 45pc;
+        }
+
+        .box {
+            color: white;
+            /* height: 250px;
+            width: 250px; */
+            /* border: 3px solid rgba(pink , red , yellow, 3) */
+            background-color: rgb(236, 4, 4);
+            width: 20px;
+            height: 20px;
+            position: relative;
+            animation-name: h1;
+            animation-duration: 2s;
+            animation-iteration-count:infinite;
+            animation-timing-function: ease-in-out;
+            /* animation-direction:alternate-reverse; */
+            /* animation-fill-mode:infinite; */
+            /* animation-delay: 2s; */
+        }
+
+
+        @keyframes h1 {
+            0% {
+                top: 0px;
+                left: 0px;
+            }
+
+            25% {
+                top: 250px;
+                left: 0px;
+            }
+
+            75% {
+                top: 250px;
+                left: 250px;
+            }
+
+            100% {
+                top: 0px;
+                left: 250px;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box" id="box1">
+            <hgroup>this is group</hgroup>
+        </div>
+    </div>
+</body>
+
+</html>
